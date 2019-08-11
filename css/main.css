@@ -262,6 +262,15 @@ textarea {
   color: #0b70af;
   background: #5EBBF5; }
 
+.text-primary {
+  color: #42A78C; }
+
+.text-secondary {
+  color: #875EF5; }
+
+.text-tertiary {
+  color: #5EBBF5; }
+
 .text-left {
   text-align: left; }
 
@@ -302,6 +311,15 @@ textarea {
 .bg-tertiary {
   color: #0b70af;
   background: #5EBBF5; }
+
+.text-primary {
+  color: #42A78C; }
+
+.text-secondary {
+  color: #875EF5; }
+
+.text-tertiary {
+  color: #5EBBF5; }
 
 .text-left {
   text-align: left; }
