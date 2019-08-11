@@ -10,15 +10,6 @@ body {
     overflow: hidden;
 }
 
-code, xmp {
-    background-color: $color-gray-4;
-    color: $color-white;
-    display: block;
-    font-family: monospace;
-    border-radius: 5px;
-    padding: 5px 15px;
-}
-
 .wrapper {
     height: 100vh;
     display: flex;

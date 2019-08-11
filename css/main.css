@@ -8,14 +8,6 @@ body {
   background: #EEEEEE;
   overflow: hidden; }
 
-code, xmp {
-  background-color: #222222;
-  color: #FFFFFF;
-  display: block;
-  font-family: monospace;
-  border-radius: 5px;
-  padding: 5px 15px; }
-
 .wrapper {
   height: 100vh;
   display: flex;
@@ -181,6 +173,18 @@ hr {
     .cards .card:nth-child(3) {
       background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
+.code-snippet {
+  color: #42A78C;
+  font-family: Courier; }
+
+code, xmp {
+  background-color: #222222;
+  color: #FFFFFF;
+  display: block;
+  font-family: monospace;
+  border-radius: 5px;
+  padding: 5px 15px; }
+
 form::after {
   content: "";
   display: table;
@@ -218,7 +222,7 @@ textarea {
   .sidebar-menu .link {
     display: block;
     list-style-type: none;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 2px;
     transition: background-color 0.5s; }
     .sidebar-menu .link:not(.title):hover {
       background-color: rgba(0, 0, 0, 0.1);
@@ -253,7 +257,7 @@ textarea {
   background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
 .bg-tertiary {
-  color: #FFFFFF;
+  color: #0b70af;
   background: #5EBBF5; }
 
 .text-left {
@@ -294,7 +298,7 @@ textarea {
   background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
 .bg-tertiary {
-  color: #FFFFFF;
+  color: #0b70af;
   background: #5EBBF5; }
 
 .text-left {

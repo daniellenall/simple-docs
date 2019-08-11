@@ -1,0 +1,13 @@
+.code-snippet {
+    color: $color-primary;
+    font-family: $font-monospace;
+}
+
+code, xmp {
+    background-color: $color-gray-4;
+    color: $color-white;
+    display: block;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
