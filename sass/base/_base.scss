@@ -8,10 +8,10 @@
 body {
     background: $color-gray-1;
     overflow: hidden;
+    height: 100vh;
 }
 
 .wrapper {
-    height: 100vh;
     display: flex;
     justify-content: space-between;
 }

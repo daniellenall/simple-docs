@@ -6,10 +6,10 @@
 
 body {
   background: #EEEEEE;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh; }
 
 .wrapper {
-  height: 100vh;
   display: flex;
   justify-content: space-between; }
 
