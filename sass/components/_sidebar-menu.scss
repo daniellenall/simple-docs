@@ -1,0 +1,15 @@
+.sidebar-menu {
+    list-style-type: none;
+    .link {
+        display: block;
+        list-style-type: none;
+        padding: 2px 5px;
+        &:not(.title) {
+            &:hover {
+                background-color: rgba($color-black, 0.3);
+                border-radius: 2px;
+            }
+            
+        }
+    }
+}
