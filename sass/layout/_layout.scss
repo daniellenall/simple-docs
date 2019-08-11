@@ -8,6 +8,10 @@
 .sidebar {
     flex-shrink: 0;
     overflow-y: auto;
+    
+    .heading {
+        font-size: 1.5em;
+    }
 }
 
 .main {
