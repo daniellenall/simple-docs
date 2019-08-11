@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat; }
+
+body {
+  background: #EEEEEE;
+  overflow: hidden; }
+
+code, xmp {
+  background-color: #222222;
+  color: #FFFFFF;
+  display: block;
+  font-family: monospace;
+  border-radius: 5px;
+  padding: 5px 15px; }
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between; }
+
+* {
+  font-size: 0.99em; }
+
+body {
+  color: #222222; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 400; }
+
+.paragraph {
+  margin-bottom: 10px;
+  font-weight: 300; }
+
+.quote-large {
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px 0px 30px 0px; }
+  .quote-large:before {
+    content: '"'; }
+  .quote-large:after {
+    content: '"'; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.9; }
+  a:hover {
+    opacity: 1; }
+
+.link-list {
+  list-style-type: none; }
+
+hr {
+  background: #42A78C;
+  border: none;
+  outline: none;
+  height: 10px;
+  width: 75px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 2rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 1rem; }
+  .row .col-1-2 {
+    width: calc((100% - 1rem) / 2); }
+  .row .col-1-3 {
+    width: calc((100% - (1rem * 2)) / 3); }
+  .row .col-2-3 {
+    width: calc(2 * ((100% - 2 * 1rem) / 3) + 1rem); }
+  .row .col-1-4 {
+    width: calc((100% - (1rem * 3)) / 4); }
+  .row .col-2-4 {
+    width: calc(2 * ((100% - 3 * 1rem) / 4) + 1rem); }
+  .row .col-3-4 {
+    width: calc(3 * ((100% - 3 * 1rem) / 4) + 2 * 1rem); }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .row .col-sm-1 {
+      width: 100%;
+      margin-bottom: 2rem; } }
+
+.footer {
+  color: #FFFFFF;
+  padding: 20px 5%; }
+  .footer .copy {
+    text-align: center; }
+
+.footer-box {
+  font-weight: 300; }
+  .footer-box h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400; }
+
+.column {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px; }
+
+.sidebar {
+  flex-shrink: 0; }
+
+.main {
+  background-color: #FFFFFF;
+  overflow-y: auto;
+  flex-grow: 1; }
+
+.btn {
+  display: block;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+  float: right; }
+
+.btn-outline {
+  border: 1px #FFFFFF solid;
+  background: none; }
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(34, 34, 34, 0.75)), url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1333&q=80");
+  background-size: cover;
+  background-position: center; }
+  .hero .hero-content {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 3px #000000;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .cards .card {
+    color: #FFFFFF;
+    border-radius: 10px;
+    flex: 1 0;
+    min-width: 400px;
+    padding: 4rem;
+    margin: 0px 5px 20px 5px;
+    font-weight: 300;
+    text-shadow: 0px 3px 6px #000000;
+    text-align: center; }
+    .cards .card:nth-child(1) {
+      background: linear-gradient(to bottom right, #067E55, #42A78C); }
+    .cards .card:nth-child(2) {
+      background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+    .cards .card:nth-child(3) {
+      background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+
+form::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+input, textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  box-shadow: 0px 5px 10px #000000; }
+
+textarea {
+  height: 200px; }
+
+.page-header {
+  height: 45vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(34, 34, 34, 0.75)), url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1333&q=80");
+  background-size: cover;
+  background-position: center;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  padding-top: 4em; }
+  .page-header .page-header-content {
+    text-shadow: 0px 1px 3px #000000;
+    width: 90%;
+    margin: auto; }
+
+.bg-black {
+  color: #FFFFFF;
+  background: #000000; }
+
+.bg-dark {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #222222, #000000); }
+
+.bg-primary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #067E55, #42A78C); }
+
+.bg-primary {
+  color: #FFFFFF;
+  background: #42A78C; }
+
+.bg-secondary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+
+.bg-secondary {
+  color: #FFFFFF;
+  background: #875EF5; }
+
+.bg-tertiary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+
+.bg-tertiary {
+  color: #FFFFFF;
+  background: #5EBBF5; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.bg-black {
+  color: #FFFFFF;
+  background: #000000; }
+
+.bg-dark {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #222222, #000000); }
+
+.bg-primary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #067E55, #42A78C); }
+
+.bg-primary {
+  color: #FFFFFF;
+  background: #42A78C; }
+
+.bg-secondary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+
+.bg-secondary {
+  color: #FFFFFF;
+  background: #875EF5; }
+
+.bg-tertiary-gradient {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+
+.bg-tertiary {
+  color: #FFFFFF;
+  background: #5EBBF5; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }

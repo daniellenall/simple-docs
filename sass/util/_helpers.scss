@@ -1,0 +1,55 @@
+.bg-black {
+    color: $color-white;
+    background: $color-black;
+    
+}
+
+.bg-dark {
+    color: $color-white;
+    background: linear-gradient(to bottom right, $color-gray-4, $color-black);
+    
+}
+
+.bg-primary-gradient {
+    color: $color-white;
+    background: linear-gradient(to bottom right, $color-primary-dark, $color-primary);
+    
+}
+
+.bg-primary {
+    color: $color-white;
+    background: $color-primary;
+    
+}
+
+.bg-secondary-gradient {
+    color: $color-white;
+    background: linear-gradient(to bottom right, $color-secondary-dark, $color-secondary);
+}
+
+.bg-secondary{
+    color: $color-white;
+    background: $color-secondary;
+}
+
+.bg-tertiary-gradient {
+    color: $color-white;
+    background: linear-gradient(to bottom right, $color-tertiary-dark, $color-tertiary);
+}
+
+.bg-tertiary{
+    color: $color-white;
+    background: $color-tertiary;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

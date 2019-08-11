@@ -1,0 +1,17 @@
+.column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.sidebar {
+    flex-shrink: 0;
+}
+
+.main {
+    background-color: $color-white;
+    overflow-y: auto;
+    flex-grow: 1;
+    
+}
