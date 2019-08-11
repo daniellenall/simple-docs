@@ -1,12 +1,16 @@
 .sidebar-menu {
     list-style-type: none;
+
+    .heading {
+        font-size: 12px;
+    }
     .link {
         display: block;
         list-style-type: none;
-        padding: 2px 5px;
+        padding: 5px 10px;
         &:not(.title) {
             &:hover {
-                background-color: rgba($color-black, 0.3);
+                background-color: rgba($color-black, 0.1);
                 border-radius: 2px;
             }
             

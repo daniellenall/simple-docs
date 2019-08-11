@@ -121,7 +121,8 @@ hr {
   padding: 5px 15px; }
 
 .sidebar {
-  flex-shrink: 0; }
+  flex-shrink: 0;
+  overflow-y: auto; }
 
 .main {
   background-color: #FFFFFF;
@@ -172,11 +173,11 @@ hr {
     text-shadow: 0px 3px 6px #000000;
     text-align: center; }
     .cards .card:nth-child(1) {
-      background: linear-gradient(to bottom right, #067E55, #42A78C); }
+      background: linear-gradient(to bottom right, #173930, #42A78C); }
     .cards .card:nth-child(2) {
-      background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+      background: linear-gradient(to bottom right, #370baf, #875EF5); }
     .cards .card:nth-child(3) {
-      background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+      background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
 form::after {
   content: "";
@@ -210,6 +211,18 @@ textarea {
     width: 90%;
     margin: auto; }
 
+.sidebar-menu {
+  list-style-type: none; }
+  .sidebar-menu .heading {
+    font-size: 12px; }
+  .sidebar-menu .link {
+    display: block;
+    list-style-type: none;
+    padding: 5px 10px; }
+    .sidebar-menu .link:not(.title):hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 2px; }
+
 .bg-black {
   color: #FFFFFF;
   background: #000000; }
@@ -220,23 +233,23 @@ textarea {
 
 .bg-primary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #067E55, #42A78C); }
+  background: linear-gradient(to bottom right, #173930, #42A78C); }
 
 .bg-primary {
-  color: #FFFFFF;
+  color: #173930;
   background: #42A78C; }
 
 .bg-secondary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+  background: linear-gradient(to bottom right, #370baf, #875EF5); }
 
 .bg-secondary {
-  color: #FFFFFF;
+  color: #370baf;
   background: #875EF5; }
 
 .bg-tertiary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+  background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
 .bg-tertiary {
   color: #FFFFFF;
@@ -261,23 +274,23 @@ textarea {
 
 .bg-primary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #067E55, #42A78C); }
+  background: linear-gradient(to bottom right, #173930, #42A78C); }
 
 .bg-primary {
-  color: #FFFFFF;
+  color: #173930;
   background: #42A78C; }
 
 .bg-secondary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #2B195C, #875EF5); }
+  background: linear-gradient(to bottom right, #370baf, #875EF5); }
 
 .bg-secondary {
-  color: #FFFFFF;
+  color: #370baf;
   background: #875EF5; }
 
 .bg-tertiary-gradient {
   color: #FFFFFF;
-  background: linear-gradient(to bottom right, #005D96, #5EBBF5); }
+  background: linear-gradient(to bottom right, #0b70af, #5EBBF5); }
 
 .bg-tertiary {
   color: #FFFFFF;
