@@ -42,11 +42,11 @@ h3 {
   .quote-large:after {
     content: '"'; }
 
-a {
+.link {
   text-decoration: none;
   color: inherit;
   opacity: 0.9; }
-  a:hover {
+  .link:hover {
     opacity: 1; }
 
 .link-list {
@@ -215,14 +215,20 @@ textarea {
 
 .sidebar-menu {
   list-style-type: none; }
+  .sidebar-menu .title {
+    padding: 0px; }
   .sidebar-menu .link {
     display: block;
+    opacity: 1;
     list-style-type: none;
     padding: 5px 0px 5px 2px;
     transition: background-color 0.5s; }
     .sidebar-menu .link:not(.title):hover {
       background-color: rgba(0, 0, 0, 0.1);
       border-radius: 2px; }
+  .sidebar-menu .current {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px; }
 
 .bg-black {
   color: #FFFFFF;

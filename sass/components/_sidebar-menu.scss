@@ -1,7 +1,12 @@
 .sidebar-menu {
     list-style-type: none;
+    .title {
+        padding: 0px;
+        
+    }
     .link {
         display: block;
+        opacity: 1;
         list-style-type: none;
         padding: 5px 0px 5px 2px;
         transition: background-color 0.5s;
@@ -11,5 +16,9 @@
                 border-radius: 2px;                
             }   
         }
+    }
+    .current {
+        background-color: rgba($color-black, 0.1);
+        border-radius: 2px;  
     }
 }
