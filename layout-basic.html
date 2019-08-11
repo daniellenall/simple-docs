@@ -64,11 +64,64 @@
         </div>
 
         <div class="column main">
-            <h2>About</h2>
-            <h3>What is Simple Docs?</h3>
-            <p class="paragraph">A simple framework for documenting software projects.</p>
-            <p class="paragraph">Currently a work in progress.</p>
+            <h2>Layout</h2>
+            <h3>Basics</h3>
+            <p class="paragraph">The layout of this documentation is made up of three simple divs</p>
             
+            <p class="paragraph">We have the <span class="code-snippet">.wrapper</span> class, which is the base of the layout, which will contain a number of <span class="code-snippet">.column</span> divs. </p>
+
+            <xmp>
+<div class="wrapper bg-primary">
+    <div class="column sidebar">
+    Content
+    </div>
+    <div class="column main bg-secondary">
+        Content
+    </div>
+</div>
+            </xmp>
+
+            <h3>Wrapper</h3>
+            <p class="paragraph"><span class="code-snippet">.wrapper</span> class should be added to your main container <span class="code-snippet">div</span>. These can contain other <span class="code-snippet">divs</span> with <span class="code-snippet">.column</span> classes.</p>
+            <h3>Column</h3>
+            <p class="paragraph"><span class="code-snippet">.column</span> classes are <span class="code-snippet">flexbox</span> elements which take up a section of the <span class="code-snippet">.wrapper div</span> and should be used to create columns in your documentation page.</p>
+                        <xmp>
+<div class="wrapper">
+    <div class="column">
+    Content
+    </div>
+    <div class="column">
+        Content
+    </div>
+</div>
+            </xmp>
+            <p class="paragraph">This code would create a layout with two equal columns which are sized based on their content.</p>
+            <h3>Sidebar</h3>
+            <p class="paragraph"><span class="code-snippet">.sidebar</span> class should be added alongside <span class="code-snippet">.column</span>, to specify the purpose of the column. Sidebar has a max width of 30%, and a minimum of 250px. to <span class="code-snippet">divs</span> containing extra information. For example, </p>
+   <xmp>
+<div class="wrapper">
+    <div class="column sidebar bg-primary">
+        Sidebar content with a primary background color. The default is <span class="text-primary">green</span>
+    </div>
+    <div class="column">
+        Content
+    </div>
+</div>
+            </xmp>
+
+            <h3>Main</h3>
+            <p class="paragraph"><span class="code-snippet">.main</span> class class should be added alongside <span class="code-snippet">.column</span>, to specify that this is the main content of your documentation. Elements using this class will fill the remainder of the page width.</p>
+               <xmp>
+<div class="wrapper">
+    <div class="column">
+    Content
+    </div>
+    <div class="column main">
+        Put documentation here
+    </div>
+</div>
+            </xmp>
+        <p class="paragraph">There is still further information to be added to this page</p>    
         </div>
         
     </div>
