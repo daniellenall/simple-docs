@@ -8,7 +8,8 @@
 .sidebar {
     flex-shrink: 0;
     overflow-y: auto;
-    
+    min-width: 250px;
+    max-width: 25%;
     .heading {
         font-size: 1.5em;
     }

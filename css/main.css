@@ -95,16 +95,10 @@ hr {
 
 .footer {
   color: #FFFFFF;
-  padding: 20px 5%; }
+  padding: 20px 5%;
+  width: 100%; }
   .footer .copy {
     text-align: center; }
-
-.footer-box {
-  font-weight: 300; }
-  .footer-box h4 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 400; }
 
 .column {
   height: 100vh;
@@ -114,7 +108,9 @@ hr {
 
 .sidebar {
   flex-shrink: 0;
-  overflow-y: auto; }
+  overflow-y: auto;
+  min-width: 250px;
+  max-width: 25%; }
   .sidebar .heading {
     font-size: 1.5em; }
 
